@@ -71,8 +71,7 @@ padding-left: 5%;
 
 
 .Nasa-image{
-    width: 638px;
-    height: 433px;
+   
     display: flex;
     align-items: center;
     padding-left:1% ;
@@ -107,7 +106,7 @@ h4{
     font-size: 28px;
     font-weight:800px;
 }
-p1{
+p{
     font-size: 28px;
     font-weight:normal;
     
@@ -189,26 +188,73 @@ h5{
             
        
 
-        @media only  screen and  (max-width: 1000px){
+       
+
          
-         .navbar a, .logo,  h3, p1{
-             display: none;
-            
+   
+   
 
-        }}
 
-     
-        @media only  screen and  (max-width: 600px){
-
-    #background {
-
-        width: 100%;
-        box-sizing: border-box;
-    }}
     @media only  screen and  (max-width: 600px){
 
-    img{
-        
-          width: 100%;
-      }  
-    }
+        #background {
+
+            width: 100%;
+            box-sizing: border-box;
+            flex-direction:column
+            
+        }
+
+        .logo{
+            display: none;}
+
+         .Nasa-image img{
+             width: 90%;
+             align-content: center;
+             padding-top: 5%;
+         } 
+         .loco-image img{
+             width: 90%;
+             padding-top: 5%;
+         }
+         .BIKE-image img{ 
+             width: 70%;
+             align-content: center;
+             justify-content: center;
+             padding-top: 5%;
+         }
+         .Dragon-image img{
+             width: 90%;
+             padding-top: 5%;
+             
+         }
+         .text-explaine {
+            
+             text-align: left;
+             width: auto;
+            
+             position:static
+            
+         }
+
+         h1{ 
+             font-size: 38px;
+         }
+         h2{
+             font-size: 32px;
+         }
+         h3{
+            font-size: 28px;
+
+         }
+         h4{
+            font-size: 24px;
+         } 
+         h5{
+            font-size: 18;
+         }
+         p{
+            font-size: 24px;
+         }
+}
+ 
